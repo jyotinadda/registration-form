@@ -1,0 +1,89 @@
+
+        	body
+            {
+            	display:block;
+				margin:0 auto;
+				font-family: Helvetica, sans-serif;
+				color:#fff;
+				font-weight: 600;
+				background:black;
+            }
+			h1
+			{
+				margin:20px auto;
+				color:#1080E2;
+				text-align:center;
+			}
+			
+        	fieldset
+            {
+            	border-radius: 10px;
+                background:#1080E2;
+				width: 500px;
+				margin:0 auto;
+				
+            }
+            .left-tab
+            {
+            	display:inline-block;
+                text-align:left;
+				width: 40%;
+				
+            }
+            .right-tab
+            {
+            	display:inline-block;
+                text-align:left;
+				width: 40%;
+				margin-left:5px;
+            }
+			select 
+			{
+				text-align:left;
+				width:10px;
+			}
+            fieldset
+            {
+            	display:block;
+            }
+			input,#dropdown
+            {
+            	margin:15px;
+				display: inline-block;
+				width:264px;
+				padding:5px;
+			}
+			#dropdown
+			{
+				width:278px;
+				padding:6px;
+				
+			}
+			#submit
+			{
+				width:200px;
+				background: #034884;
+				color:#fff;
+				margin:30px auto;
+				display:block;
+				border-radius:10px;
+				font-weight: 600;
+			}
+			#submit:hover
+			{
+				animation-name:background;
+				animation-duration:0.5s;
+				animation-fill-mode:forwards;
+			}
+			@keyframes background
+			{
+					0%
+					{
+						background: #034884;
+					}
+					100%
+					{
+						background:#1080E2;
+						transform:scale(1.2);
+					}
+			}
